@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from __future__ import print_function
+
 import smtplib
 
 def check_email(username,password,smtp_host='smtp.gmail.com',smtp_port=587):
@@ -12,7 +12,7 @@ def check_email(username,password,smtp_host='smtp.gmail.com',smtp_port=587):
     try:
         server.login(username,password)
         print("Two step Verification not detected")
-    except smtplib.SMTPAuthenticationError, msg:
+    except smtplib.SMTPAuthenticationError as msg:
         if "Application-specific password required" in msg[1]:
             print("Two Step Verification Detected ")
         elif "Username and Password not accepted" in msg[1]:

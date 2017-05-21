@@ -55,8 +55,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Gmail check for two step verification'
-copyright = u'2015, Shantanu Khandelwal'
+project = 'Gmail check for two step verification'
+copyright = '2015, Shantanu Khandelwal'
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
@@ -209,8 +209,8 @@ latex_elements = {
 # [howto/manual]).
 latex_documents = [
     ('index', 'GmailTwoStepVerificationBug.tex',
-     u'Gmail check for two step verification Documentation',
-     u'Shantanu Khandelwal', 'manual'),
+     'Gmail check for two step verification Documentation',
+     'Shantanu Khandelwal', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at
@@ -240,8 +240,8 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'GmailTwoStepVerificationBug',
-     u'Gmail check for two step verification Documentation',
-     [u'Shantanu Khandelwal'], 1)
+     'Gmail check for two step verification Documentation',
+     ['Shantanu Khandelwal'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -255,8 +255,8 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     ('index', 'GmailTwoStepVerificationBug',
-     u'Gmail check for two step verification Documentation',
-     u'Shantanu Khandelwal',
+     'Gmail check for two step verification Documentation',
+     'Shantanu Khandelwal',
      'GmailTwoStepVerificationBug',
      'One line description of project.',
      'Miscellaneous'),
